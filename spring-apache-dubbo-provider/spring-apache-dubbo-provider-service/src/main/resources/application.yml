@@ -5,13 +5,13 @@ spring:
     allow-bean-definition-overriding: true
 dubbo:
   scan:
-    base-packages: com.funtl.apache.dubbo.provider.service
+    base-packages: com.devin.spring.apache.dubbo.provider.service
   protocol:
     name: dubbo
-    port: 20880
+    port: -1
     serialization: kryo
   provider:
     #    设置Dubbo负载均衡策略，轮询
     loadbalance: roundrobin
   registry:
-    address: nacos://122.51.64.110:8848
+    address: nacos://192.168.6.162:8848
