@@ -32,7 +32,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.devin</groupId>
-                <artifactId>hello-apache-dubbo-dependencies</artifactId>
+                <artifactId>spring-apache-dubbo-dependencies</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
